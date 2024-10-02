@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Medical Healthcare Final Project</title>
+    <script src="https://kit.fontawesome.com/7b9c21497a.js"></script>
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="7406fb76-f02a-4a55-b232-fa775c8a2c90";
+    (function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName
+    ("head")[0].appendChild(s);})();</script>
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Know About Us</h1>
+    </section>
+    <!-----About Us Content---->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+            <h1>We connect you with country's best healthcare providers</h1>
+            <p>The Minnesota State Historical Society released the more than 2,000 submissions for the new
+                Minnesota state flag and seal on Wednesday, November 8, as the process of redesigning Minnesota's
+                state emblems continues.</p>
+                <a href="https://www.newsmax.com/fastfeatures/treatmentcenterforhiv/2010/09/17/id/370631/" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+            <img src="images/call for action.jpg">
+            </div>
+        </div>
+    </section>
+    </section>
+<!----Page Wrapper----->
+<div class="page-wrapper"></div>
+<!----Page Wrapper----->
+<!----Footer---->
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about">
+        <h1 class="logo-text"><span>Healthcare</span>Service</h1>
+        <p>The Minnesota State Historical Society released the more than 2,000 submissions for the new
+            Minnesota state flag and seal on every Wednesday, November 8, as the process of redesigning Minnesota's
+            state emblems continues.</p>
+            <div class="contact">
+                <span><i class="fas fa-phone"></i> &nbsp; +1 802-379-2260</span>
+                <span><i class="fas fa-envelope"></i> &nbsp; almuhaimen14@gmail.com</span>
+            </div>
+            <div class="socials">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-section links">
+        <h2>Quick Links</h2>
+        <br>
+        <ul>
+            <a href="index.html"><li>HOME</li></a>
+            <a href="login.html"><li>LOGIN</li></a>
+            <a href="about.html"><li>ABOUT</li></a>
+            <a href="blog.html"><li>BLOG</li></a>
+            <a href="contact.html"><li>CONTACT</li></a>
+        </ul>
+        </div>
+        <div class="footer-section contact-form">
+            <h2>Newsletter</h2>
+            <br>
+            <form action="newsletter handler.php" method="post">
+                <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                <button type="submit" class="hero-btn red-btn">
+                    <i class="fas fa-send-o"></i>
+                    Subscribe
+                </button>
+            </form>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        &copy; Healthcare.com | Designed by Muhaimen & Rifat
+    </div>
+</div>
+
+<!----Javascript for Toggle Menu----->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="-50px";
+    }function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
